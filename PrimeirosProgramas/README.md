@@ -26,3 +26,9 @@
 
 ## Questão 5
 > Crie um algoritmo que preencha um vetor de senhas S de tamanho 100 com senhas numéricas de 3 dígitos: [100,999]. Após o preenchimento do vetor S, contar e exibir na tela a quantidade de senhas que são ímpares e não múltiplas de 17.
+
+## Questão 6
+> Um programa que conte e exiba na tela os números pares entre [0, 10].
+
+## Questão 7
+> Um programa que gere números aleatórios entre [10,99], e exiba aqueles que são ímpares e múltiplos de 7.
