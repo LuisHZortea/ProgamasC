@@ -17,3 +17,9 @@
 
 ## Questão 3
 > Crie uma função e seu protótipo que calcule a área e volume de uma esfera. Na main, use a função em 50 esferas e exiba a área e volume para valores de raio informados pelo usuário.
+
+## Questão 4
+> Crie um algoritmo que leia do usuário o preço de 100 mercadorias e armazene estes dados num vetor (float) apropriado aos valores. Após isso exiba na tela:
+> * O Preço Médio Geral das mercadorias;
+> * Quantidade de mercadorias com o preço abaixo a esta média geral;
+> * Quantidade de mercadorias com o preço acima (ou igual) a esta média geral.
