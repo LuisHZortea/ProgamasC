@@ -23,3 +23,6 @@
 > * O Preço Médio Geral das mercadorias;
 > * Quantidade de mercadorias com o preço abaixo a esta média geral;
 > * Quantidade de mercadorias com o preço acima (ou igual) a esta média geral.
+
+## Questão 5
+> Crie um algoritmo que preencha um vetor de senhas S de tamanho 100 com senhas numéricas de 3 dígitos: [100,999]. Após o preenchimento do vetor S, contar e exibir na tela a quantidade de senhas que são ímpares e não múltiplas de 17.
