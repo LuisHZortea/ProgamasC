@@ -5,7 +5,7 @@
 #define min 100
 
 int main(void) {
-  int opcao, indice, s[size], impares = 0, nmultiplos = 0;
+  int opcao, indice, s[size], imparesen = 0;
   printf(" --------------MENU----------------- \n");
   printf("|                                   |\n");
   printf("|[1] Iniciar o programa.            |\n");
@@ -22,12 +22,10 @@ int main(void) {
       s[indice] = rand() % (max - min + 1) + min;
       printf("Array [%i]: %i \n", indice, s[indice]);
 
-      if (s[indice] % 2 != 0){
-      impares = impares + 1;}
-      else if(s[indice] % 17 != 0){
-      nmultiplos = nmultiplos + 1;}
+      if (s[indice] % 2 != 0 && s[indice] % 17 != 0){
+      imparesen = imparesen + 1;}
     }
-    printf("%i senhas são ímpares e %i não múltiplas de 17", impares, nmultiplos);
+    printf("%i senhas são ímpares e não múltiplas de 17", imparesen);
   }
   return 0;
 }
