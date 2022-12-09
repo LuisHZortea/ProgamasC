@@ -32,3 +32,6 @@
 
 ## Questão 7
 > Um programa que gere números aleatórios entre [10,99], e exiba aqueles que são ímpares e múltiplos de 7.
+
+## Questão 8
+> Um programa que leia os valores inseridos referentes às notas do 1º bimestre e do 2º bimestre, sendo que podem ser de [0-10], calcule a média, e exiba se foi aprovado ou não.
