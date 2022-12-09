@@ -18,9 +18,7 @@ int main(void) {
     for(indice = 0; indice < size; indice++){
       printf("Insira o valor da mercadoria %i: ", indice + 1);
       scanf("%f", &m[indice]);
-      if (m[indice] <= 0.05){
-        printf("Erro: Valor inválido. Tente novamente.");
-      }
+      
       soma = soma + m[indice];
       pmg = soma / size;
       if (m[indice] < pmg){
