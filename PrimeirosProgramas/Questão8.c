@@ -4,7 +4,7 @@ int main(void) {
   int opcao;
   float B1, B2, media;
 
-  printf(" --------------MENU----------------- \n");
+  printf(" ----------------MENU--------------- \n");
   printf("|                                   |\n");
   printf("|[1] Iniciar o programa.            |\n");
   printf("|[ ] Qualquer outra tecla para sair.|\n");
@@ -20,9 +20,9 @@ int main(void) {
     printf("Entre com a nota [0-10] do 2º Bimestre: \n");
     scanf("%f", &B2);
 
-    if ((B1 < 0 || B1 > 10) || (B2 < 0 || B2 > 10))
+    if ((B1 < 0 || B1 > 10) || (B2 < 0 || B2 > 10)) {
       printf("ERRO: Entrada dos dados.\n");
-    else {
+    } else {
       media = (B1 + B2) / 2;
       printf("Média Final: %.1f\n", media);
       if (media >= 5)
